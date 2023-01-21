@@ -1,0 +1,36 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#title{
+	height: 100vh;
+	background-color: var(--logo-orange);
+}
+
+#title>.flex-container{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	gap: 64px;
+}
+
+.title-text{
+	display: relative;
+	top: 50%;
+	text-align: center;
+}
+
+.title-iff{
+	font-size: 3.5em;
+}
+
+.title-date{
+	font-size: 1.5em;
+}
+.title-logo{
+	width: 450px;
+	height: 450px;
+}
