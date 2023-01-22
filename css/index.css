@@ -332,14 +332,17 @@ footer a{
 .iisc-title{
 	font-size: 2em;
 }
+	#iisc img{
+		width: 100vw;
 
+	}
 
 #iff{
 	text-align: center;
 	min-height: 100vh;
 }
 #iff img{
-	width: 50vw;
+	width: 70vw;
 }
 #iff>.flex-container{
 	display: flex;
