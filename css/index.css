@@ -216,38 +216,50 @@ a>img{
 
 #team{
 	color: #f2f2f2;
-	height: 100vh;
+	min-height: 100vh;
 	background-color: var(--logo-orange);
-	font-size: 1.5em;
+	font-size: 0.9em;
 	text-align: center;
+
 }
 
 #team>.flex-container{
 	display: flex;
 	justify-content: center;
-	gap: 64px;
+	flex-wrap: wrap;
+	flex-flow: column;
+	flex: 50%;
 }
 
 .team-title{
 	padding-top: 10vh;
-	font-size: 2em;
+	font-size: 2.5em;
+	padding-top: 5vw;
 }
 .team-desc{
+	padding-top: 5vw;
 	position: relative;
 	width: 60vw;
 	left: 50%;
 	transform: translateX(-50%);
 }
-.menu{
-}
-.drop-down-button{
-	font-size: 1.5em;
-}
-#drop-down{
-	max-height: 0px;
-	overflow: hidden;
+
+#team .flex-box{	
 }
 
+.menu{
+}
+
+.drop-down-button{
+	font-size: 1.5em;
+	cursor: pointer;
+}
+#team .drop-down{
+	max-height: 0px;
+	overflow: hidden;
+	transition: max-height 500ms;
+
+}
 
 footer{
 	text-align: center;
@@ -267,7 +279,7 @@ footer a{
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 	header{
 		min-height: 8vh;
 	}
@@ -393,7 +405,7 @@ footer a{
 	display: flex;
 	justify-content: center;
 	flex-flow: column;
-	gap: 64px;
+	gap: 30px;
 }
 
 .team-title{
@@ -410,10 +422,6 @@ footer a{
 }
 .drop-down-button{
 	font-size: 1.5em;
-}
-#drop-down{
-	max-height: 0px;
-	overflow: hidden;
 }
 
 
