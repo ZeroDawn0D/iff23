@@ -222,6 +222,11 @@ a>img{
 	text-align: center;
 
 }
+#team>img{
+	text-align: center;
+	width: 40vw;
+	border-radius: 25px;
+}
 
 #team>.flex-container{
 	display: flex;
@@ -237,7 +242,7 @@ a>img{
 	padding-top: 5vw;
 }
 .team-desc{
-	padding-top: 5vw;
+	padding-top: 3vw;
 	position: relative;
 	width: 60vw;
 	left: 50%;
